@@ -277,6 +277,22 @@ class AcademicTrainer:
         output_dir = Path(self.config.output_dir) / f"{self.config.domain}_model"
         output_dir.mkdir(parents=True, exist_ok=True)
         
+        # Tokenize datasets for causal LM (labels = input_ids)
+        def _tokenize(batch: Dict[str, List[str]]):
+            enc = self.tokenizer(
+                batch["text"],
+                truncation=True,
+                max_length=self.config.max_length,
+                padding=False,
+                return_tensors=None
+            )
+            # labels mirror input_ids for causal LM
+            enc["labels"] = [ids.copy() for ids in enc["input_ids"]]
+            return enc
+
+        train_dataset = train_dataset.map(_tokenize, batched=True, remove_columns=["text"])  # type: ignore
+        val_dataset = val_dataset.map(_tokenize, batched=True, remove_columns=["text"])      # type: ignore
+
         # Training arguments
         training_args = TrainingArguments(
             output_dir=str(output_dir),
@@ -293,18 +309,15 @@ class AcademicTrainer:
             logging_steps=self.config.logging_steps,
             save_steps=self.config.save_steps,
             eval_steps=self.config.eval_steps,
-            evaluation_strategy=self.config.evaluation_strategy,
-            save_strategy=self.config.save_strategy,
-            load_best_model_at_end=self.config.load_best_model_at_end,
-            metric_for_best_model=self.config.metric_for_best_model,
+            # Keep strategy simple for compatibility
             save_total_limit=self.config.save_total_limit,
             report_to=self.config.report_to,
             fp16=self.config.fp16 and self.device.type == "cuda",
             dataloader_num_workers=self.config.dataloader_num_workers,
-            remove_unused_columns=self.config.remove_unused_columns,
+            # Keep original dataset columns; our collator/tokenizer will handle mapping
+            remove_unused_columns=False,
             seed=self.config.seed,
             data_seed=self.config.seed,
-            deterministic=self.config.deterministic,
             run_name=f"{self.config.domain}_lora_training"
         )
         
@@ -316,9 +329,7 @@ class AcademicTrainer:
         )
         
         # Callbacks
-        callbacks = []
-        if self.config.load_best_model_at_end:
-            callbacks.append(EarlyStoppingCallback(early_stopping_patience=3))
+        callbacks = []  # Early stopping disabled for compatibility
         
         # Create trainer
         self.trainer = Trainer(
