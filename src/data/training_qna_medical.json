@@ -1,0 +1,64 @@
+{
+  "qna": [
+    {
+      "question": "What is the definition of sleep and how does it differ from other states of consciousness?",
+      "answer": "Sleep is a state of reduced mental and physical activity, during which consciousness is altered and certain sensory activity is inhibited. This is different from other states of consciousness, such as wakefulness, coma, or disorders of consciousness, because sleep still involves active brain patterns and the ability to react to stimuli, albeit to a lesser extent. Sleep is characterized by repeating periods of REM and non-REM sleep, and it serves important functions for overall health and well-being.",
+      "model": "mixtral-8x7b-32768",
+      "citation": [{"source": "https://en.wikipedia.org/wiki/Sleep", "summary": "Sleep is a state of reduced mental and physical activity in which consciousness is altered and certain sensory activity is inhibited. During sleep, there is a marked decrease in muscle activity and interactions with the surrounding environment."}]
+    },
+    {
+      "question": "What are the main symptoms of diabetes?",
+      "answer": "The main symptoms of diabetes include increased thirst (polydipsia), frequent urination (polyuria), unexplained weight loss, extreme fatigue, blurred vision, slow-healing sores or frequent infections, and in some cases, tingling or numbness in hands or feet. Type 1 diabetes symptoms often develop quickly, while Type 2 diabetes symptoms may develop gradually over time.",
+      "model": "mixtral-8x7b-32768",
+      "citation": [{"source": "https://www.mayoclinic.org/diseases-conditions/diabetes/symptoms-causes/syc-20371444", "summary": "Diabetes symptoms vary depending on how much your blood sugar is elevated. Some people, especially those with prediabetes or type 2 diabetes, may not experience symptoms initially."}]
+    },
+    {
+      "question": "What is hypertension and what are its risk factors?",
+      "answer": "Hypertension, also known as high blood pressure, is a chronic medical condition in which the blood pressure in the arteries is persistently elevated. Risk factors for hypertension include age (risk increases with age), family history of hypertension, being overweight or obese, lack of physical activity, tobacco use, excessive alcohol consumption, high sodium diet, stress, and certain chronic conditions like diabetes and kidney disease.",
+      "model": "mixtral-8x7b-32768",
+      "citation": [{"source": "https://www.heart.org/en/health-topics/high-blood-pressure", "summary": "High blood pressure, also known as hypertension, is when your blood pressure, the force of blood flowing through your blood vessels, is consistently too high."}]
+    },
+    {
+      "question": "What is the difference between a virus and bacteria?",
+      "answer": "Viruses and bacteria are both microorganisms, but they differ significantly. Bacteria are single-celled organisms that can live independently and reproduce on their own. They can be beneficial (like those in our gut) or harmful (causing infections). Viruses, on the other hand, are much smaller and cannot reproduce on their own - they need to infect a host cell to replicate. Viruses are generally always harmful, while bacteria can be either helpful or harmful to humans.",
+      "model": "mixtral-8x7b-32768",
+      "citation": [{"source": "https://www.cdc.gov/antibiotic-use/q-a.html", "summary": "Bacteria and viruses are different types of microorganisms. Bacteria are single-celled organisms that can live independently, while viruses need a host to reproduce."}]
+    },
+    {
+      "question": "What are the warning signs of a heart attack?",
+      "answer": "The warning signs of a heart attack include chest pain or discomfort (often described as pressure, squeezing, or fullness), pain or discomfort in other areas of the upper body (arms, back, neck, jaw, or stomach), shortness of breath, cold sweat, nausea or vomiting, lightheadedness or dizziness, and fatigue. Symptoms can vary between men and women, and some people may experience silent heart attacks with minimal or no symptoms.",
+      "model": "mixtral-8x7b-32768",
+      "citation": [{"source": "https://www.heart.org/en/health-topics/heart-attack/warning-signs-of-a-heart-attack", "summary": "Heart attack symptoms can vary from person to person and between men and women. The most common symptom is chest pain or discomfort."}]
+    },
+    {
+      "question": "What is the recommended daily water intake?",
+      "answer": "The recommended daily water intake varies by individual, but general guidelines suggest about 3.7 liters (125 ounces) for men and 2.7 liters (91 ounces) for women per day. This includes water from all sources - beverages and food. However, individual needs depend on factors like age, activity level, climate, health status, and whether you're pregnant or breastfeeding. The '8 glasses a day' rule is a good starting point, but actual needs may vary.",
+      "model": "mixtral-8x7b-32768",
+      "citation": [{"source": "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/water/art-20044256", "summary": "The U.S. National Academies of Sciences, Engineering, and Medicine determined that an adequate daily fluid intake is about 15.5 cups of fluids a day for men and about 11.5 cups for women."}]
+    },
+    {
+      "question": "What is the difference between a cold and the flu?",
+      "answer": "The common cold and flu are both respiratory illnesses caused by different viruses. Colds are usually milder with symptoms like runny nose, sneezing, and sore throat, and symptoms develop gradually. The flu is typically more severe with symptoms including fever, body aches, fatigue, and weakness, and symptoms often come on suddenly. Flu can lead to serious complications like pneumonia, while colds rarely do. Both are contagious but flu tends to be more severe and potentially dangerous.",
+      "model": "mixtral-8x7b-32768",
+      "citation": [{"source": "https://www.cdc.gov/flu/symptoms/coldflu.htm", "summary": "Influenza (flu) and the common cold are both contagious respiratory illnesses, but they are caused by different viruses. Flu is worse than the common cold and symptoms are more intense."}]
+    },
+    {
+      "question": "What are the benefits of regular exercise?",
+      "answer": "Regular exercise provides numerous health benefits including improved cardiovascular health, stronger muscles and bones, better mental health and mood, enhanced brain function and memory, improved sleep quality, better weight management, reduced risk of chronic diseases (diabetes, heart disease, some cancers), improved immune system function, increased energy levels, and better overall quality of life. The American Heart Association recommends at least 150 minutes of moderate-intensity aerobic activity per week.",
+      "model": "mixtral-8x7b-32768",
+      "citation": [{"source": "https://www.heart.org/en/healthy-living/fitness/fitness-basics/aha-recs-for-physical-activity-in-adults", "summary": "Physical activity is anything that makes you move your body and burn calories. Regular physical activity can help you prevent or manage a wide range of health problems and concerns."}]
+    },
+    {
+      "question": "What is the normal range for blood pressure?",
+      "answer": "Normal blood pressure is typically defined as less than 120/80 mmHg. Blood pressure is measured in two numbers: systolic (top number, pressure when heart beats) and diastolic (bottom number, pressure when heart rests between beats). Categories include: Normal (less than 120/80), Elevated (120-129/less than 80), Stage 1 Hypertension (130-139/80-89), and Stage 2 Hypertension (140/90 or higher). Hypertensive crisis is 180/120 or higher and requires immediate medical attention.",
+      "model": "mixtral-8x7b-32768",
+      "citation": [{"source": "https://www.heart.org/en/health-topics/high-blood-pressure/understanding-blood-pressure-readings", "summary": "Blood pressure is measured in millimeters of mercury (mm Hg). A blood pressure reading has two numbers: the top number is the systolic pressure and the bottom number is the diastolic pressure."}]
+    },
+    {
+      "question": "What are the symptoms of depression?",
+      "answer": "Symptoms of depression include persistent feelings of sadness, hopelessness, or emptiness, loss of interest or pleasure in activities once enjoyed, significant weight loss or gain, insomnia or excessive sleeping, fatigue or loss of energy, feelings of worthlessness or excessive guilt, difficulty concentrating or making decisions, recurrent thoughts of death or suicide, restlessness or slowed movements, and physical symptoms like aches and pains. Symptoms must persist for at least two weeks and significantly interfere with daily functioning to meet diagnostic criteria.",
+      "model": "mixtral-8x7b-32768",
+      "citation": [{"source": "https://www.nimh.nih.gov/health/publications/depression", "summary": "Depression is a common but serious mood disorder. It causes severe symptoms that affect how you feel, think, and handle daily activities, such as sleeping, eating, or working."}]
+    }
+  ]
+}

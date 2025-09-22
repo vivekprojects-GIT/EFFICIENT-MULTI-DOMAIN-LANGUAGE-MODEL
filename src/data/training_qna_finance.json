@@ -1,0 +1,64 @@
+{
+  "qna": [
+    {
+      "question": "What is compound interest and how does it work?",
+      "answer": "Compound interest is the interest calculated on the initial principal and the accumulated interest from previous periods. Unlike simple interest, which is calculated only on the principal amount, compound interest grows exponentially over time. For example, if you invest $1,000 at 5% annual compound interest, after one year you'll have $1,050. In the second year, you'll earn interest on $1,050, not just the original $1,000. The formula is A = P(1 + r/n)^(nt), where A is the final amount, P is principal, r is annual interest rate, n is number of times interest is compounded per year, and t is time in years. This is why Albert Einstein called compound interest 'the eighth wonder of the world.'",
+      "model": "mixtral-8x7b-32768",
+      "citation": [{"source": "https://www.investopedia.com/terms/c/compoundinterest.asp", "summary": "Compound interest is interest calculated on the initial principal and the accumulated interest from previous periods."}]
+    },
+    {
+      "question": "What is the difference between stocks and bonds?",
+      "answer": "Stocks and bonds are two different types of investments with distinct characteristics. Stocks represent ownership shares in a company, making you a partial owner. Stock prices fluctuate based on company performance and market conditions, offering higher potential returns but also higher risk. Bondholders are creditors who lend money to governments or corporations in exchange for regular interest payments and return of principal at maturity. Bonds are generally considered safer and more predictable than stocks, typically offering lower returns but with fixed income payments. Stocks are equity investments, while bonds are debt investments.",
+      "model": "mixtral-8x7b-32768",
+      "citation": [{"source": "https://www.investopedia.com/articles/bonds/07/stock_bond_basics.asp", "summary": "Stocks and bonds are two of the main asset classes that investors use in their portfolios."}]
+    },
+    {
+      "question": "What is a 401(k) retirement plan?",
+      "answer": "A 401(k) is a retirement savings plan sponsored by employers that allows employees to save and invest a portion of their paycheck before taxes are taken out. Contributions are typically made through payroll deduction, and many employers offer matching contributions up to a certain percentage. The money grows tax-deferred until withdrawal in retirement. There are two main types: traditional 401(k) where contributions are pre-tax, and Roth 401(k) where contributions are after-tax but withdrawals in retirement are tax-free. There are annual contribution limits ($22,500 in 2023), and early withdrawals before age 59½ generally incur penalties and taxes.",
+      "model": "mixtral-8x7b-32768",
+      "citation": [{"source": "https://www.irs.gov/retirement-plans/401k-plans", "summary": "A 401(k) is a feature of a qualified profit-sharing plan that allows employees to contribute a portion of their wages to individual accounts."}]
+    },
+    {
+      "question": "What is inflation and how does it affect the economy?",
+      "answer": "Inflation is the rate at which the general level of prices for goods and services rises, reducing the purchasing power of money over time. It's typically measured by the Consumer Price Index (CPI). Moderate inflation (2-3% annually) is generally considered healthy for economic growth, as it encourages spending and investment. However, high inflation erodes savings, reduces real wages, and can lead to economic instability. Central banks, like the Federal Reserve, use monetary policy tools (interest rates, money supply) to control inflation. Deflation, or falling prices, can also be problematic as it may lead to reduced spending and economic stagnation.",
+      "model": "mixtral-8x7b-32768",
+      "citation": [{"source": "https://www.investopedia.com/terms/i/inflation.asp", "summary": "Inflation is a measure of the rate of rising prices of goods and services in an economy."}]
+    },
+    {
+      "question": "What is the difference between a credit score and a credit report?",
+      "answer": "A credit report is a detailed record of your credit history, including information about your credit accounts, payment history, outstanding debts, and public records. It's compiled by credit bureaus (Experian, Equifax, TransUnion) based on information from lenders and other sources. A credit score is a three-digit number (typically 300-850) calculated from the information in your credit report. It's a numerical representation of your creditworthiness that lenders use to assess risk. The most common scoring model is FICO, which considers factors like payment history (35%), amounts owed (30%), length of credit history (15%), credit mix (10%), and new credit (10%).",
+      "model": "mixtral-8x7b-32768",
+      "citation": [{"source": "https://www.consumerfinance.gov/ask-cfpb/what-is-the-difference-between-a-credit-report-and-a-credit-score-en-309/", "summary": "Your credit report is a detailed record of your credit history. Your credit score is a three-digit number based on your credit report."}]
+    },
+    {
+      "question": "What is diversification in investing?",
+      "answer": "Diversification is an investment strategy that spreads risk by investing in a variety of assets across different sectors, industries, geographic regions, and asset classes. The principle is that different investments will react differently to market conditions, so if one investment performs poorly, others may perform well, reducing overall portfolio risk. This can include diversifying across stocks, bonds, real estate, commodities, and international markets. However, diversification doesn't guarantee against loss, and over-diversification can limit potential returns. The goal is to find the right balance between risk reduction and return potential based on your investment objectives and risk tolerance.",
+      "model": "mixtral-8x7b-32768",
+      "citation": [{"source": "https://www.investopedia.com/terms/d/diversification.asp", "summary": "Diversification is a risk management strategy that mixes a wide variety of investments within a portfolio."}]
+    },
+    {
+      "question": "What is the Federal Reserve and what does it do?",
+      "answer": "The Federal Reserve (Fed) is the central bank of the United States, established in 1913 to provide the nation with a safer, more flexible, and more stable monetary and financial system. Its main responsibilities include conducting monetary policy (controlling interest rates and money supply), supervising and regulating banks, maintaining financial stability, and providing banking services to the government and financial institutions. The Fed operates through 12 regional Federal Reserve Banks and is governed by a Board of Governors. Its dual mandate is to promote maximum employment and stable prices. The Fed influences the economy primarily through open market operations, setting the federal funds rate, and adjusting reserve requirements.",
+      "model": "mixtral-8x7b-32768",
+      "citation": [{"source": "https://www.federalreserve.gov/aboutthefed.htm", "summary": "The Federal Reserve System is the central bank of the United States. It performs five general functions to promote the effective operation of the U.S. economy."}]
+    },
+    {
+      "question": "What is a mortgage and how does it work?",
+      "answer": "A mortgage is a loan used to purchase real estate, where the property serves as collateral for the loan. The borrower makes monthly payments that include both principal (the loan amount) and interest. Mortgages typically have terms of 15 or 30 years, though other terms are available. The most common types are fixed-rate mortgages (interest rate stays the same) and adjustable-rate mortgages (interest rate can change). Lenders evaluate borrowers based on credit score, income, debt-to-income ratio, and down payment amount. A larger down payment typically results in better loan terms. If the borrower fails to make payments, the lender can foreclose on the property.",
+      "model": "mixtral-8x7b-32768",
+      "citation": [{"source": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-mortgage-en-99/", "summary": "A mortgage is an agreement between you and a lender that gives the lender the right to take your property if you fail to repay the money you've borrowed plus interest."}]
+    },
+    {
+      "question": "What is the difference between a Roth IRA and a traditional IRA?",
+      "answer": "Both Roth and traditional IRAs are individual retirement accounts, but they differ in tax treatment. Traditional IRA contributions may be tax-deductible (depending on income and employer retirement plan participation), and the money grows tax-deferred until withdrawal in retirement, when it's taxed as ordinary income. Roth IRA contributions are made with after-tax dollars (no upfront tax deduction), but qualified withdrawals in retirement are completely tax-free. Traditional IRAs have required minimum distributions starting at age 72, while Roth IRAs have no required distributions during the owner's lifetime. Roth IRAs also allow penalty-free withdrawals of contributions at any time, though earnings withdrawals before age 59½ may incur penalties.",
+      "model": "mixtral-8x7b-32768",
+      "citation": [{"source": "https://www.irs.gov/retirement-plans/individual-retirement-arrangements-iras", "summary": "IRAs provide tax advantages for retirement savings. You can contribute to a traditional IRA, a Roth IRA, or both."}]
+    },
+    {
+      "question": "What is cryptocurrency and how does it work?",
+      "answer": "Cryptocurrency is a digital or virtual currency that uses cryptography for security and operates independently of central banks. The most well-known cryptocurrency is Bitcoin, but there are thousands of others (altcoins) like Ethereum, Litecoin, and Ripple. Cryptocurrencies use blockchain technology, a decentralized ledger that records all transactions across a network of computers. This technology ensures security, transparency, and immutability of transaction records. Cryptocurrencies can be used for online purchases, investments, or as a store of value. However, they are highly volatile, largely unregulated, and can be subject to security risks. Unlike traditional currencies, cryptocurrencies are not backed by any government or physical commodity.",
+      "model": "mixtral-8x7b-32768",
+      "citation": [{"source": "https://www.investopedia.com/terms/c/cryptocurrency.asp", "summary": "A cryptocurrency is a digital or virtual currency that is secured by cryptography, which makes it nearly impossible to counterfeit or double-spend."}]
+    }
+  ]
+}

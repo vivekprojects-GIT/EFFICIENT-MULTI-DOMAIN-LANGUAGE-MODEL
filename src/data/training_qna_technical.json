@@ -1,0 +1,64 @@
+{
+  "qna": [
+    {
+      "question": "What is machine learning and how does it differ from traditional programming?",
+      "answer": "Machine learning is a subset of artificial intelligence that enables computers to learn and make decisions from data without being explicitly programmed for every scenario. Unlike traditional programming where developers write specific instructions for every possible input, machine learning algorithms build mathematical models based on training data to make predictions or decisions. The key difference is that traditional programming uses input data and rules to produce answers, while machine learning uses input data and answers to produce rules. Machine learning includes supervised learning (learning from labeled examples), unsupervised learning (finding patterns in data), and reinforcement learning (learning through trial and error with rewards).",
+      "model": "mixtral-8x7b-32768",
+      "citation": [{"source": "https://www.ibm.com/cloud/learn/machine-learning", "summary": "Machine learning is a method of data analysis that automates analytical model building."}]
+    },
+    {
+      "question": "What is the difference between HTTP and HTTPS?",
+      "answer": "HTTP (HyperText Transfer Protocol) and HTTPS (HTTP Secure) are both protocols for transferring data over the web, but HTTPS adds a crucial security layer. HTTP sends data in plain text, making it vulnerable to interception, tampering, and eavesdropping. HTTPS encrypts data using SSL/TLS (Secure Sockets Layer/Transport Layer Security) before transmission, ensuring that data cannot be read or modified by unauthorized parties. HTTPS uses port 443 (HTTP uses port 80) and requires an SSL certificate from a trusted Certificate Authority. Modern browsers often warn users about unsecured HTTP connections, and HTTPS is now considered essential for any website handling sensitive information like passwords, payment details, or personal data.",
+      "model": "mixtral-8x7b-32768",
+      "citation": [{"source": "https://www.cloudflare.com/learning/ssl/what-is-https/", "summary": "HTTPS is the secure version of HTTP, the protocol used for sending data between your browser and the website you're connected to."}]
+    },
+    {
+      "question": "What is cloud computing and what are its main service models?",
+      "answer": "Cloud computing is the delivery of computing services—including servers, storage, databases, networking, software, analytics, and intelligence—over the Internet ('the cloud') to offer faster innovation, flexible resources, and economies of scale. The main service models are: Infrastructure as a Service (IaaS) - provides virtualized computing resources like virtual machines, storage, and networks; Platform as a Service (PaaS) - provides a platform allowing customers to develop, run, and manage applications without dealing with infrastructure; and Software as a Service (SaaS) - delivers software applications over the internet on a subscription basis. Cloud computing offers benefits like cost reduction, scalability, flexibility, and automatic software updates, but also presents challenges like security concerns and dependency on internet connectivity.",
+      "model": "mixtral-8x7b-32768",
+      "citation": [{"source": "https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-cloud-computing/", "summary": "Cloud computing is the delivery of computing services over the internet, including servers, storage, databases, networking, software, analytics, and intelligence."}]
+    },
+    {
+      "question": "What is version control and why is Git important?",
+      "answer": "Version control is a system that records changes to files over time, allowing you to recall specific versions later. It's essential for software development, document management, and collaborative work. Git is a distributed version control system that tracks changes in source code during software development. Key benefits include: tracking changes and history, enabling collaboration between developers, creating branches for feature development, merging changes safely, and rolling back to previous versions when needed. Git allows developers to work on the same project simultaneously, resolve conflicts, and maintain a complete history of all changes. Popular Git hosting services include GitHub, GitLab, and Bitbucket, which provide additional features like issue tracking, code review, and project management tools.",
+      "model": "mixtral-8x7b-32768",
+      "citation": [{"source": "https://git-scm.com/doc", "summary": "Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency."}]
+    },
+    {
+      "question": "What is the difference between frontend and backend development?",
+      "answer": "Frontend and backend development represent two distinct aspects of web development. Frontend (client-side) development focuses on the user interface and user experience, involving everything users see and interact with in their browsers. It uses technologies like HTML, CSS, JavaScript, and frameworks like React, Vue.js, or Angular. Frontend developers ensure the website is responsive, accessible, and provides a smooth user experience. Backend (server-side) development handles the server logic, databases, and application programming interfaces (APIs) that power the frontend. It uses server-side languages like Python, Java, Node.js, or PHP, along with databases like MySQL, PostgreSQL, or MongoDB. Backend developers focus on performance, security, data management, and business logic. Full-stack developers work with both frontend and backend technologies.",
+      "model": "mixtral-8x7b-32768",
+      "citation": [{"source": "https://www.geeksforgeeks.org/frontend-vs-backend/", "summary": "Frontend is what users see and interact with and backend is how everything works."}]
+    },
+    {
+      "question": "What is an API and how does it work?",
+      "answer": "An API (Application Programming Interface) is a set of protocols, routines, and tools for building software applications that defines how software components should interact. It acts as an intermediary that allows two applications to communicate with each other. APIs work by receiving requests from one application and sending responses back with the requested data or performing the requested action. Common API types include REST (Representational State Transfer), which uses HTTP methods like GET, POST, PUT, DELETE, and SOAP (Simple Object Access Protocol), which uses XML. APIs are essential for modern software development, enabling applications to share data and functionality. For example, a weather app might use a weather service API to get current conditions, or a mobile app might use a payment API to process transactions.",
+      "model": "mixtral-8x7b-32768",
+      "citation": [{"source": "https://www.redhat.com/en/topics/api/what-are-application-programming-interfaces", "summary": "An API is a set of definitions and protocols for building and integrating application software."}]
+    },
+    {
+      "question": "What is containerization and what is Docker?",
+      "answer": "Containerization is a lightweight virtualization technology that packages applications and their dependencies into portable, self-contained units called containers. Unlike traditional virtual machines that virtualize entire operating systems, containers share the host OS kernel and only package the application and its dependencies. Docker is the most popular containerization platform that simplifies the process of creating, deploying, and running applications in containers. Benefits include consistency across environments, faster deployment, resource efficiency, scalability, and easier maintenance. Docker uses images (templates for containers) and containers (running instances of images). It's widely used in microservices architecture, DevOps practices, and cloud-native application development. Kubernetes is often used alongside Docker for container orchestration at scale.",
+      "model": "mixtral-8x7b-32768",
+      "citation": [{"source": "https://www.docker.com/resources/what-container/", "summary": "A container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another."}]
+    },
+    {
+      "question": "What is the difference between SQL and NoSQL databases?",
+      "answer": "SQL and NoSQL databases represent two different approaches to data storage and management. SQL (Structured Query Language) databases are relational databases that store data in tables with predefined schemas, using rows and columns. They ensure ACID (Atomicity, Consistency, Isolation, Durability) properties and use structured queries. Examples include MySQL, PostgreSQL, and Oracle. NoSQL databases are non-relational and can handle unstructured, semi-structured, or structured data. They offer more flexibility in data modeling and are designed for horizontal scaling. Types include document databases (MongoDB), key-value stores (Redis), column-family databases (Cassandra), and graph databases (Neo4j). SQL databases are better for complex queries and transactions, while NoSQL databases excel at handling large volumes of diverse data and providing high performance and availability.",
+      "model": "mixtral-8x7b-32768",
+      "citation": [{"source": "https://www.mongodb.com/nosql-explained/nosql-vs-sql", "summary": "NoSQL databases are non-tabular databases and store data differently than relational tables."}]
+    },
+    {
+      "question": "What is cybersecurity and what are common threats?",
+      "answer": "Cybersecurity is the practice of protecting systems, networks, and programs from digital attacks that aim to access, change, or destroy sensitive information, extort money from users, or disrupt normal business operations. Common cybersecurity threats include malware (malicious software like viruses, worms, trojans), phishing (fraudulent attempts to obtain sensitive information), ransomware (malware that encrypts files and demands payment), DDoS attacks (distributed denial-of-service that overwhelms systems), and social engineering (manipulating people into revealing confidential information). Cybersecurity measures include firewalls, antivirus software, encryption, multi-factor authentication, regular security updates, employee training, and incident response plans. As technology evolves, cybersecurity must adapt to protect against increasingly sophisticated attacks.",
+      "model": "mixtral-8x7b-32768",
+      "citation": [{"source": "https://www.cisa.gov/cybersecurity", "summary": "Cybersecurity is the art of protecting networks, devices, and data from unauthorized access or criminal use."}]
+    },
+    {
+      "question": "What is agile software development methodology?",
+      "answer": "Agile is a software development methodology that emphasizes iterative development, collaboration, and flexibility in responding to changing requirements. It's based on the Agile Manifesto, which values individuals and interactions over processes and tools, working software over comprehensive documentation, customer collaboration over contract negotiation, and responding to change over following a plan. Popular agile frameworks include Scrum (with sprints, daily standups, and retrospectives), Kanban (visual workflow management), and Extreme Programming (XP). Agile promotes frequent delivery of working software, close collaboration between development teams and stakeholders, and continuous feedback and improvement. Benefits include faster time to market, better quality, increased customer satisfaction, and improved team morale. Agile contrasts with traditional waterfall methodology, which follows a linear, sequential approach.",
+      "model": "mixtral-8x7b-32768",
+      "citation": [{"source": "https://www.atlassian.com/agile", "summary": "Agile is an iterative approach to project management and software development that helps teams deliver value to their customers faster and with fewer headaches."}]
+    }
+  ]
+}
